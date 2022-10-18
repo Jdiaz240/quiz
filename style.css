@@ -1,0 +1,12 @@
+body {
+    text-align: center;
+}
+
+.hide {
+    display: none;
+}
+
+table, td, tr, th {
+    margin: 0 auto;
+    border: 1px solid black;
+}
