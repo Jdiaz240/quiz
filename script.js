@@ -82,6 +82,7 @@ let getQuestions = () => {
         //for each current question fill the 'options' with buttons that each contain an answer choice
         currentQuestion.choices.forEach(function (choice) {
             let button = document.createElement('button')
+            button.setAttribute('id', 'choices')
             button.innerHTML = choice
             options.appendChild(button)
         })

@@ -3,6 +3,8 @@ body {
     background-color: white;
 }
 
+
+
 .hide {
     display: none;
 }
@@ -11,3 +13,51 @@ table, td, tr, th {
     margin: 0 auto;
     border: 1px solid black;
 }
+
+#start {
+    border-radius: 30px;
+    border-style: none;
+    background-color: red;
+    color: white;
+    padding: 1%;
+    margin: 2%;
+    font-weight: bold;
+}
+
+#start:hover {
+    background-color: white;
+    color: red;
+    cursor: pointer;
+    border: 1px solid red;
+}
+
+#question {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#choices {
+    margin: 1%;
+    border-radius: 15px;
+    border-style: none;
+    background-color: red;
+    color: white;
+    padding: 5px;
+    font-weight: bold;
+}
+
+#choices:hover {
+    background-color: white;
+    color: red;
+    cursor: pointer;
+    border: 1px solid red;
+}
+
+#timer {
+    border: 1px solid black;
+    width: 70px;
+    margin: 2% auto;
+    text-align: left;
+    padding: 5px;
+}
+
